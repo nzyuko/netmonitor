@@ -1,5 +1,6 @@
 import time
 import psutil
+# from colors import Colors
 
 last_received = psutil.net_io_counters().bytes_recv
 last_sent = psutil.net_io_counters().bytes_sent
